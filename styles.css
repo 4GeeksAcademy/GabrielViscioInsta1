@@ -1,12 +1,56 @@
-#estrella{
-.material-symbols-outlined 
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightgray;
 }
-img{
-    height: 25em;
-    width: 37.5em;
+.post{
+  margin-top: 20px;
+  width: 37.5em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+.postFoto img{
+  background-color:beige;
+  height: 25em;
+  width: 37.5em;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  list-style: none;
+  text-justify: center;
+  }
+li{
+  display: inline;
+  margin-right: 10px;
+}
+.postHeader{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.descripciones{
+  width: 32em;
+  margin-left: 10px;
+}
+.postOpciones{
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.postOpciones a{
+  margin: 3px;
 }
