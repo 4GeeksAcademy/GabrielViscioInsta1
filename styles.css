@@ -1,56 +1,62 @@
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:lightgray;
+ display: flex;
+ justify-content: center;
+ padding-top: 20px;
+ background-color: lightgray;
 }
 .post{
-  margin-top: 20px;
-  width: 37.5em;
+  width: 40%;
   height: auto;
   display: flex;
   flex-direction: column;
   background-color: white;
 }
-img {
-  width: 20px;
-  height: 20px;
+.post .postFoto{
+  display:flex;
+  width: 100%;
 }
-.postFoto img{
-  background-color:beige;
-  height: 25em;
-  width: 37.5em;
-}
-ul{
-  list-style-type: none;
-  padding: 0;
-  list-style: none;
-  text-justify: center;
-  }
-li{
-  display: inline;
-  margin-right: 10px;
+.post .postFoto img{
+  width: 100%;
 }
 .postHeader{
   display: flex;
   justify-content: space-between;
-  height: 40px;
   align-items: center;
+  padding: 0px 10px 0px 0px;
+  height: 50px;
+  position: relative;
 }
-ol{
+.postHeader ul{
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.descripciones{
-  width: 32em;
-  margin-left: 10px;
+  list-style:none;
+  list-style-position: inside;
 }
 .postOpciones{
-  margin-left: 10px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  width: 90%;
+  padding: 15px 3px 10px 15px;
 }
-.postOpciones a{
-  margin: 3px;
+.guardarPublicacion{
+  padding-right: 0;
+  position: absolute;
+
+}
+ol{
+  list-style: none;
+}
+.fa-html5{
+  font-size: 35px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 3px;
+}
+a:hover {
+  color: gray;
+}
+.descripciones{
+  padding: 5px 20px;
 }
